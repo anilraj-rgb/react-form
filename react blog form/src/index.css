@@ -60,3 +60,39 @@ ul button:hover {
   background-color: red;
   box-shadow: none
 }
+
+/*INPUTS*/
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  width: 80%;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: #8388A4;
+  color: white;
+}
+
+form button {
+  width: 20%;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  background-color: #428BCA;
+  color: white;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #187FF5;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
